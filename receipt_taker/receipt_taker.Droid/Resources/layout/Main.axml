@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <EditText
+        android:inputType="date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateText"
+        android:hint="@string/date" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleText"
+        android:hint="@string/title" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/amountText"
+            android:hint="@string/amount" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/splitTxButton"
+            android:text="@string/split" />
+    </LinearLayout>
+    <EditText
+        android:inputType="textMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/memoEditText"
+        android:hint="@string/memo" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imagesButton"
+        android:text="@string/images" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linkButton"
+        android:text="@string/link" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/completeTxButton"
+        android:text="@string/complete" />
+</LinearLayout>

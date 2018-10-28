@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">receipt_taker.Droid</string>
+    <string name="title">Title</string>
+    <string name="memo">Memo</string>
+    <string name="date">Date</string>
+    <string name="images">Images</string>
+    <string name="complete">Complete</string>
+    <string name="split">Split</string>
+    <string name="link">Link</string>
+    <string name="amount">$0.00</string>
+</resources>
